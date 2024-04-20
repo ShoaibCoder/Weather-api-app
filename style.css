@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: black; */
+    background: linear-gradient(75deg, #f34b03f7, #280aef90);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    /* background: linear-gradient(135deg, #ee500cb7, #2810c759); */
+    background:#00000058;
+    color: #fff;
+    margin: 50px auto 0 ;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #634e4e;
+    padding: 16px 15px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+}
+
+.weather-icon{
+    width: 150px;
+    margin-top: 30px;
+
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 35px;
+    font-weight: 400;   
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 50px;
+    display: none;
+}
+
+@media (max-width:914px){
+   .search button{
+   height: 40px;
+   width: 40px;
+   } 
+}
+
+@media (min-width:360px){
+  
+    .search button img{
+        width: 10px;
+    }
+     
+    .search button{
+        height: 30px;
+        width: 30px;
+       padding: 0 8px;
+       margin-right:14px;
+        } 
+
+        .search input{
+       margin-right: 13px;
+        }
+
+}
