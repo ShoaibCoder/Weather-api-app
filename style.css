@@ -109,24 +109,3 @@ justify-content: space-between;
     margin-top: 50px;
     display: none;
 }
-
-@media (max-width:914px){
-   .search button{
-   height: 40px;
-   width: 40px;
-   } 
-}
-@media (min-width:360px){
-  
-    .search button img{
-        width: 10px;
-    }
-     
-    .search button{
-        height: 30px;
-        width: 30px;
-       padding: 0 8px;
-       margin-right:14px;
-        } 
-
-}
