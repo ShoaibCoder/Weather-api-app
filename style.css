@@ -6,7 +6,6 @@
 }
 
 body{
-    /* background: black; */
     background: linear-gradient(75deg, #f34b03f7, #280aef90);
     background-size: cover;
     background-repeat: repeat;
@@ -15,7 +14,6 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    /* background: linear-gradient(135deg, #ee500cb7, #2810c759); */
     background:#00000058;
     color: #fff;
     margin: 50px auto 0 ;
@@ -37,7 +35,7 @@ justify-content: space-between;
     background-color: #ebfffc;
     color: #634e4e;
     padding: 16px 15px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
@@ -108,15 +106,22 @@ justify-content: space-between;
     font-size: 14px;
     margin-top: 50px;
     display: none;
-}   @media (max-width:914px){
+} 
+
+@media (max-width:740px){
    .search button{
    height: 40px;
    width: 40px;
+
+     .card{
+   width:100%;
+   max-width: 340px;
+   }
+       
    } 
-}
+
 @media (min-width:360px){
-  
-    .search button img{
+  .search button img{
         width: 10px;
     }
      
@@ -126,6 +131,7 @@ justify-content: space-between;
        padding: 0 8px;
        margin-right:14px;
         }  
+    
        .search input{
        margin-right: 13px;
         }
