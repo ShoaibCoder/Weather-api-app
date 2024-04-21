@@ -39,7 +39,7 @@ justify-content: space-between;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .search button{
@@ -106,22 +106,23 @@ justify-content: space-between;
     font-size: 14px;
     margin-top: 50px;
     display: none;
-} 
+}
 
 @media (max-width:740px){
    .search button{
    height: 40px;
    width: 40px;
+   } 
 
-     .card{
+   .card{
    width:100%;
    max-width: 340px;
    }
-       
-   } 
+}
 
 @media (min-width:360px){
-  .search button img{
+  
+    .search button img{
         width: 10px;
     }
      
@@ -130,11 +131,10 @@ justify-content: space-between;
         width: 30px;
        padding: 0 8px;
        margin-right:14px;
-        }  
-    
-       .search input{
+        } 
+
+        .search input{
        margin-right: 13px;
         }
 
 }
-                                                                                                                                 
