@@ -108,6 +108,8 @@ justify-content: space-between;
     display: none;
 }
 
+
+
 @media (max-width:740px){
    .search button{
    height: 40px;
@@ -118,7 +120,17 @@ justify-content: space-between;
    width:100%;
    max-width: 340px;
    }
+
+   .col img{
+    width: 20px;
+    margin-right: 10px;
+   }
+
+    .humidity, .wind{
+        font-size: 18px;
+    }
 }
+
 
 @media (min-width:360px){
   
